@@ -23,6 +23,6 @@ func main() {
 	// loops is interseting in maps
 
 	for key, value := range languages {
-		fmt.Println("For key %v, value is %v\n", key, value)
+		fmt.Printf("For key %v, value is %v\n", key, value)
 	}
 }

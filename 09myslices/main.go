@@ -14,7 +14,7 @@ func main() {
 	fruitList = append(fruitList, "Mango", "Banana") // we can add more elements in slice using append functions
 	fmt.Println(fruitList)
 
-	fruitList = append(fruitList[1:3]) // this will remove first element and keep 2nd and 3rd element
+	fruitList = fruitList[1:3] // this will remove first element and keep 2nd and 3rd element
 	fmt.Println(fruitList)
 
 	highScores := make([]int, 4)
